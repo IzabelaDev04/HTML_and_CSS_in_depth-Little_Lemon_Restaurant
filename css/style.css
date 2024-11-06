@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: 200;
+}
+
+.logo{
+    align-items: baseline;
+    margin: 30px auto;
+}
+
+.logo img{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-item{
+    display: inline-block;
+    font-family: "Edu AU VIC WA NT Dots", sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px 20px;
+    padding: 15px 30px;
+}
+
+.nav-item a{
+    color: #c8c800;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    color: #787800;
+    cursor: pointer;
+}
+
+.banner > a > img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#container{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+.content-main{
+    margin: 3rem 2rem;
+}
+
+.content-grid, .menu-grid{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item, .menu-grid-col{
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid-item h1{
+    font-family: "Edu AU VIC WA NT Dots", sans-serif;
+}
+
+.grid-item img{
+    padding-top: 2rem;
+    width: 5rem;
+}
+
+.menu-grid-col img{
+    margin-top: 3rem;
+    width: 15rem;
+}
+
+#about{
+    margin: 3rem auto;
+}
+
+.about-grid{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.about-grid img{
+    width: 10rem;
+}
+
+#contact{
+    padding-bottom: 5rem;
+}
+
+#contact button{
+    background-color: #f0f0d9;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+}
+
+footer{
+    background-color: #f0f0d9;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer .container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+footer .footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_footer img{
+    max-width: 10rem;
+}
+
+#copyright p{
+    font-size: 0.875rem;
+}
+
+@media all and (max-width: 48rem){
+    .content-grid, .menu-grid, .about-grid, .container{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+
+    footer .footer-item{
+        flex-basis: 100%;
+    }
+}
