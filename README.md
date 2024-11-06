@@ -1,10 +1,10 @@
 # HTML_and_CSS_in_depth-Little_Lemon_Restaurant
 
 <b> Task: </b> <br><br>
-Creating a website for the client Little Lemon Restaurant
+Creating a website for the client Little Lemon Restaurant<br><br><br>
 
 <b> Guidelines: </b> <br><br>
-Create a semantic structure with a header, main content, and footer. Decide whether to use grid or flexbox for the layout. The client's logo must be in the header, and the main content must have a large promotional banner and three columns of text and images below. The footer should be two columns. The first column must contain a smaller version of the logo, and the second column should contain copywriting information.<br>
+Create a semantic structure with a header, main content, and footer. Decide whether to use grid or flexbox for the layout. The client's logo must be in the header, and the main content must have a large promotional banner and three columns of text and images below. The footer should be two columns. The first column must contain a smaller version of the logo, and the second column should contain copywriting information.<br><br><br>
 
 <b> Client Description: </b> <br><br>
 Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. The chefs draw inspiration from Italian, Greek, and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.<br><br>
