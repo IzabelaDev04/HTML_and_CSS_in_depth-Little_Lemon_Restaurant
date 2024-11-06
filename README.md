@@ -1,4 +1,4 @@
-# HTML_and_CSS_in_depth-Little_Lemon_Restaurant
+# HTML and CSS in depth - Little Lemon Restaurant
 
 <b> Task: </b> <br><br>
 Creating a website for the client Little Lemon Restaurant<br><br>
